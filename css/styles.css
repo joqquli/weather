@@ -1,0 +1,71 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #ffecd2, #fcb69f); /* Hempeä vaaleanpunainen ja keltainen gradientti */
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 60px;
+    background-color: rgba(255, 255, 255, 0.85); /* Läpinäkyvä valkoinen tausta */
+    border-radius: 20px; /* Pyöristetyt kulmat */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Hieno varjo */
+    width: 300px;
+}
+
+.container h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.image-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Kuvasta tehdään pyöreä */
+    background-color: #fff7d5; /* Pehmeä keltainen tausta kuvakkeelle */
+    padding: 8px;
+    display: none; /* Piilotetaan ikoni aluksi */
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+    margin: 5px 0;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff0f5; /* Vaaleanpunainen tekstikenttä */
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #fcb69f; /* Vaaleanpunainen painike */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ffecd2; /* Keltainen hover-efekti painikkeessa */
+}

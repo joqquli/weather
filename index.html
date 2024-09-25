@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sääsovellus</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Säätila</h1>
+        <form id="city-form">
+            <!--- <label for="city-input">Anna paikkakunta:</label> ---->
+            <input type="text" id="city-input" placeholder="Syötä paikkakunta">
+            <button type="submit">Hae sää</button>
+        </form>
+        <div class="image-wrapper">
+            <img id="weather-icon" alt="Sääikoni">
+        </div>
+        <p id="location"></p>
+        <p id="temperature"></p>
+        <p id="wind"></p>
+        <p id="description"></p>
+        <p id="humidity"></p> 
+        <p id="sunrise"></p> 
+        <p id="sunset"></p>
+    </div>
+</body>
+</html>

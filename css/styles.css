@@ -4,16 +4,16 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(135deg, #ffecd2, #fcb69f); /* Hempeä vaaleanpunainen ja keltainen gradientti */
+    background: linear-gradient(135deg, #ffecd2, #fcb69f); 
     margin: 0;
 }
 
 .container {
     text-align: center;
     padding: 60px;
-    background-color: rgba(255, 255, 255, 0.85); /* Läpinäkyvä valkoinen tausta */
-    border-radius: 20px; /* Pyöristetyt kulmat */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Hieno varjo */
+    background-color: rgba(255, 255, 255, 0.85); 
+    border-radius: 20px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
     width: 300px;
 }
 
@@ -31,10 +31,10 @@ body {
 img {
     width: 100px;
     height: 100px;
-    border-radius: 50%; /* Kuvasta tehdään pyöreä */
-    background-color: #fff7d5; /* Pehmeä keltainen tausta kuvakkeelle */
+    border-radius: 50%; 
+    background-color: #fff7d5; 
     padding: 8px;
-    display: none; /* Piilotetaan ikoni aluksi */
+    display: none; 
 }
 
 p {
@@ -50,13 +50,13 @@ input[type="text"] {
     width: 200px;
     margin-bottom: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background-color: #fff0f5; /* Vaaleanpunainen tekstikenttä */
+    background-color: #fff0f5;
     color: #333;
 }
 
 button {
     padding: 10px 20px;
-    background-color: #fcb69f; /* Vaaleanpunainen painike */
+    background-color: #fcb69f; 
     color: white;
     border: none;
     border-radius: 5px;
@@ -67,5 +67,5 @@ button {
 }
 
 button:hover {
-    background-color: #ffecd2; /* Keltainen hover-efekti painikkeessa */
+    background-color: #ffecd2; 
 }

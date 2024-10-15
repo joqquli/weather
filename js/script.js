@@ -1,4 +1,4 @@
-const apiKey = '96155cd0990498e754a79bc3a8cb1908';  
+const apiKey = 'YOUR_API_KEY';  
 const apiEndpoint = 'https://api.openweathermap.org/data/2.5/weather';
 const iconBaseURL = 'https://openweathermap.org/img/wn/';
 
